@@ -17,7 +17,6 @@ function Dice() {
                 <img src="./src/assets/images/dice-empty.png" alt="img-vacia" onClick={toggleImage} />
             )
             
-            
             : (
                 <img src="./src/assets/images/dice3.png" alt="img-3" onClick={toggleImage} />
             )}
